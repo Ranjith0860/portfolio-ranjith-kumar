@@ -27,9 +27,12 @@ html {
 }
 
 body {
-    background-color: var(--light-color);
-    color: var(--dark-color);
-    line-height: 1.6;
+    body {
+        background: linear-gradient(to bottom right, #ffffff, #e8f0ff);
+      }
+      
+
+    
 }
 
 a {
@@ -105,7 +108,6 @@ header {
     width: 100%;
     background-color: #d5dadc;
     background-color: #f3f4f7;
-background-image: linear-gradient(315deg, #f3f4f7 0%, #caccd1 74%);
 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -154,8 +156,7 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
 
     position: relative;
     overflow: hidden;
@@ -198,9 +199,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
 /* About Section */
 #about {
-    background-color: #0093E9;
    
-background-image: linear-gradient(160deg, #0080e9 0%, #80D0C7 100%);
 
 
 }
@@ -249,7 +248,7 @@ background-image: linear-gradient(160deg, #0080e9 0%, #80D0C7 100%);
     background-image: linear-gradient(315deg, #f5f5f5 0%, #7fffd4 74%);
     
     padding: 8px 15px;
-    background-color: var(--primary-color);
+    
     color: rgb(22, 21, 21);
     border-radius: 20px;
     font-size: 0.9rem;
@@ -266,8 +265,7 @@ background-image: linear-gradient(160deg, #0080e9 0%, #80D0C7 100%);
 
 /* Projects Section */
 #projects {
-    background-color: #8ae9b3;
-    background-image: linear-gradient(315deg, #8ae9b3 0%, #c8d6e5 74%);
+  
 
 }
 
@@ -373,7 +371,7 @@ background-image: linear-gradient(160deg, #0080e9 0%, #80D0C7 100%);
 /* Certificates Section */
 #certificates {
     
-    background-image: linear-gradient(315deg, #d3d3d3 0%, #7bed9f 74%);
+    
 }
 
 .certificates-grid {
@@ -422,13 +420,20 @@ background-image: linear-gradient(160deg, #0080e9 0%, #80D0C7 100%);
 }
 
 .certificate-link {
-    color: var(--primary-color);
+    height: fit-content;
+    width: fit-content;
+    color: #0530f3;
+    font-weight: bolder;
+    font-weight: bolder;
+   text-transform: uppercase;
     font-weight: 500;
     font-size: 0.9rem;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 5px;
     text-transform:uppercase;
+    background-color: #e3ecf6;
 }
 .certificate-link:hover{
     height: fit-content;
@@ -437,15 +442,16 @@ background-image: linear-gradient(160deg, #0080e9 0%, #80D0C7 100%);
     border-radius: 5px;
     font-weight: bolder;
    text-transform: uppercase;
-   color: #0b0e0f;
-   transition: var(--transition);
+   color: #340762;
+   transform: scale(1.1);
+    transition: var(--transition);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 
 }
 
 /* Contact Section */
 #contact {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+   linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
 .contact-container {
@@ -491,8 +497,8 @@ background-image: linear-gradient(160deg, #0080e9 0%, #80D0C7 100%);
 }
 
 .contact-form {
-    background: rgb(0,128,128);
-    background: linear-gradient(159deg, rgba(0,128,128,1) 0%, rgba(0,153,144,1) 100%);
+    background: rgb(230, 235, 235);
+    background: linear-gradient(159deg, rgb(240, 243, 243) 0%, rgb(198, 199, 199) 100%);
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -530,8 +536,7 @@ textarea.form-control {
 
 /* Footer */
 footer {
-    background-color: #add8e6;
-background-image: linear-gradient(147deg, #add8e6 0%, #fffafa 74%);
+   border-top: 2px solid #999;
 
     
     color: rgb(10, 10, 10);
@@ -571,6 +576,7 @@ background-image: linear-gradient(147deg, #add8e6 0%, #fffafa 74%);
     display: flex;
     gap: 15px;
     margin-top: 20px;
+    
 }
 
 .social-links a {
@@ -584,8 +590,10 @@ background-image: linear-gradient(147deg, #add8e6 0%, #fffafa 74%);
     justify-content: center;
     color: rgb(13, 3, 27);
     transition: var(--transition);
+    
 }
 a img {
+    margin-right: 10px;
     width: 100px;
     height: 40px;
     object-fit: contain; /* Ensures it scales properly */
@@ -609,7 +617,7 @@ a img {
 }
 
 .quick-links a:hover {
-    color: white;
+    color: rgb(37, 6, 240);
     padding-left: 5px;
 }
 
