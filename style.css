@@ -27,10 +27,8 @@ html {
 }
 
 body {
-    body {
-        background: linear-gradient(to bottom right, #ffffff, #e8f0ff);
-      }
-      
+    background-color: #1e1e1e;
+
 
     
 }
@@ -51,6 +49,8 @@ ul {
 }
 
 .section {
+    color:  #f5f5f5;
+
     padding: 80px 0;
 }
 
@@ -163,17 +163,20 @@ nav {
 }
 
 .hero-content {
+    color:  #f5f5f5;
     position: relative;
     z-index: 1;
 }
 
 .hero-text h1 {
+    color:  #f5f5f5;
     font-size: 4rem;
     margin-bottom: 20px;
     animation: fadeIn 1s ease-out;
 }
 
 .hero-text p {
+    color:  #f5f5f5;
     font-size: 1.2rem;
     margin-bottom: 30px;
     max-width: 600px;
@@ -200,7 +203,7 @@ nav {
 /* About Section */
 #about {
    
-
+    color:  #f5f5f5;
 
 }
 
@@ -209,7 +212,7 @@ nav {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
-    color: #010b11;
+    color:  #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -316,6 +319,7 @@ nav {
 }
 
 .project-info h3 {
+     color:  #150d0d;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
@@ -408,6 +412,7 @@ nav {
 
 
 .certificate-info h3 {
+  color: #0a0b0c;
     margin-bottom: 10px;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -451,7 +456,7 @@ nav {
 
 /* Contact Section */
 #contact {
-   linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+   color: #ecf1f5;
 }
 
 .contact-container {
@@ -488,7 +493,7 @@ nav {
     width: 40px;
     height: 40px;
     background-color: var(--primary-color);
-    color: rgb(242, 236, 236);
+    color: rgb(17, 2, 2);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -497,6 +502,7 @@ nav {
 }
 
 .contact-form {
+    color: #150d0d;
     background: rgb(230, 235, 235);
     background: linear-gradient(159deg, rgb(240, 243, 243) 0%, rgb(198, 199, 199) 100%);
     border-radius: 10px;
@@ -539,7 +545,7 @@ footer {
    border-top: 2px solid #999;
 
     
-    color: rgb(10, 10, 10);
+    color: rgb(244, 238, 238);
     padding: 40px 0 20px;
     position: relative;
 }
@@ -588,7 +594,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(13, 3, 27);
+    color: rgb(113, 17, 247);
     transition: var(--transition);
     
 }
@@ -612,7 +618,7 @@ a img {
 }
 
 .quick-links a {
-    color: #05121f;
+    color: #e9ebed;
     transition: var(--transition);
 }
 
